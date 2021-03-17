@@ -7,7 +7,7 @@ public class LevelGeneratorSystem : MonoBehaviour
     //LevelGenerator:To make a level
     public BaseGridObject[] BaseGridObjectsPrefab;
 
-    private static int[,] Grid = new int[,]
+    public static int[,] Grid = new int[,]
     {
             {1,1,1,1,1,1,1,1,1,1},
             {1,0,1,0,0,0,0,3,0,1},
@@ -20,8 +20,6 @@ public class LevelGeneratorSystem : MonoBehaviour
 
     private void Awake()
     {
-        
-
         for (int y = 0; y < Grid.GetLength(0) ; y++)
         {
             for (int x = 0; x < Grid.GetLength(1); x++)
