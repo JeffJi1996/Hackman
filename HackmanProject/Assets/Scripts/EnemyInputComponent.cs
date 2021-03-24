@@ -7,7 +7,7 @@ using System.Linq;
 //Rider(Jetbrains)
 //Resharper(Visual studio plugin, Jetbrains)
 
-public class Ghost : BaseGridMovement
+public class EnemyInputComponent : MovementComponent
 {
     private IntVector2[] movementDirections = new IntVector2[]
     {

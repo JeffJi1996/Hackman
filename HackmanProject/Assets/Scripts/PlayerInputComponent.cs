@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Hackman : BaseGridMovement
+public class PlayerInputComponent : MovementComponent
 {
     protected override void Update()
     {
@@ -26,6 +26,5 @@ public class Hackman : BaseGridMovement
             currentInputDirection = new IntVector2(1, 0);
         }
         base.Update();
-
     }
 }
