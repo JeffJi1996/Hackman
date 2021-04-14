@@ -107,11 +107,11 @@ public class LINQExample : MonoBehaviour
 
 }
 
-public class Enemy
-{
-    public string Name;
-    public int HP;
-}
+// public class Enemy
+// {
+//     public string Name;
+//     public int HP;
+// }
 
 public class Student
 {
