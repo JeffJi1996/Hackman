@@ -124,8 +124,6 @@ public class DelegatesExamples : MonoBehaviour
         //Action return void ,just parameter
         //Because 'Action' means do something. So Action have no return, just doing things in the method
         Action<int> meAct = TakeAnIntReturnVoid;
-        
-
         #endregion
        
 

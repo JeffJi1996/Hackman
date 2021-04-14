@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7011968723269821896}
   - component: {fileID: 1663553728212030765}
   - component: {fileID: 6317156841165121653}
+  - component: {fileID: 6308246620122492839}
   - component: {fileID: 4767396604032775974}
   m_Layer: 0
   m_Name: Pill
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 7620356027981252670}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.82, y: 0.8261013, z: -2.386528}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -95,6 +96,18 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6308246620122492839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7620356027981252670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25169717a277b2f4988d340c6eef26aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &4767396604032775974
 MonoBehaviour:
   m_ObjectHideFlags: 0

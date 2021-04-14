@@ -14,6 +14,7 @@ public class MovementComponent : BaseGridObject
     private void Start()
     {
         targetGridPosition = GridPositon;
+        MovementSpeed = 2;
     }
 
     protected virtual void Update()

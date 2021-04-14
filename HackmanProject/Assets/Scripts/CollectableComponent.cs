@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pill : BaseGridObject
+public class CollectableComponent : MonoBehaviour
 {
 
 }
-
-
