@@ -6,6 +6,8 @@ public class LevelGeneratorSystem : MonoBehaviour
 {
     //LevelGenerator:To make a level
     public BaseGridObject[] BaseGridObjectsPrefab;
+    [SerializeField] private string level;
+    public List<string> LevelFileNames = new List<string>();
 
     public static int[,] Grid = new int[,]
     {
@@ -20,6 +22,10 @@ public class LevelGeneratorSystem : MonoBehaviour
 
     private void Awake()
     {
+        level = LevelFileNames[Random.Range(0, LevelFileNames.Count - 1)];
+        Grid = AppDataSystem.Load<Level>(level).Grid;
+        
+
         for (int y = 0; y < Grid.GetLength(0) ; y++)
         {
             for (int x = 0; x < Grid.GetLength(1); x++)
@@ -32,6 +38,9 @@ public class LevelGeneratorSystem : MonoBehaviour
             }
         }
     }
+}
 
-
+public class Level
+{
+    public int[,] Grid;
 }

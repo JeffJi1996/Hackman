@@ -15,7 +15,7 @@ public class Evently
     //Subscribe
     //Be something like this...+=
     public void Subscribe<T>(Action<T> del)
-    {
+    { 
         if (delegates.ContainsKey(typeof(T)))
         {
             delegates[typeof(T)] = Delegate.Combine(delegates[typeof(T)],del);

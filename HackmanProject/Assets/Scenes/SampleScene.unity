@@ -373,6 +373,14 @@ MonoBehaviour:
   - {fileID: 3321036846796027663, guid: 449ca8917c2ea2048b193864937d00bc, type: 3}
   - {fileID: 2645064804385368598, guid: 0ca898eb041135842ae1979e088dcd85, type: 3}
   - {fileID: 3646540343663832226, guid: 3a72939bd46d7db4b918da5892289ba1, type: 3}
+  level: 
+  LevelFileNames:
+  - level_01
+  - level_02
+  - level_03
+  - level_04
+  - level_05
+  - level_06
 --- !u!4 &1030389460
 Transform:
   m_ObjectHideFlags: 0
