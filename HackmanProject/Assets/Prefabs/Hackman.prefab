@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2645064804385368598}
   - component: {fileID: -4339616185872650570}
   - component: {fileID: 4981653846909273797}
+  - component: {fileID: 8941021979938129273}
   m_Layer: 0
   m_Name: Hackman
   m_TagString: Untagged
@@ -108,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7487d66c24acfc34cb47bb61656d307c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 0
+  MovementSpeed: 2
 --- !u!54 &-4339616185872650570
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -137,3 +138,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a31e09051555a5f4ba9d283923afee93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8941021979938129273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9155882972952105340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7616c96ebf52aa84fba295dce86029d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 1
